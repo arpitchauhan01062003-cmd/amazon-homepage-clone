@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="#" class="brand" aria-label="Amazon home">
+        <i class="fa-brands fa-amazon"></i>
+        <span>amazon</span>
+      </a>
+
+      <button class="location" aria-label="Select delivery location">
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        <span>
+          <small>Deliver to</small>
+          <strong>India</strong>
+        </span>
+      </button>
+
+      <form class="search" role="search" aria-label="Site search">
+        <label for="search-input" class="sr-only">Search products</label>
+        <select aria-label="Search category">
+          <option>All</option>
+          <option>Electronics</option>
+          <option>Books</option>
+          <option>Fashion</option>
+        </select>
+        <input id="search-input" type="search" placeholder="Search Amazon" />
+        <button type="submit" aria-label="Submit search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+      <div class="nav-actions">
+        <a href="#">Account &amp; Lists</a>
+        <a href="#">Returns &amp; Orders</a>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+      </div>
+    </nav>
+
+    <nav class="sub-nav" aria-label="Category navigation">
+      <a href="#"><i class="fa-solid fa-bars"></i> All</a>
+      <a href="#">Today's Deals</a>
+      <a href="#">Customer Service</a>
+      <a href="#">Prime</a>
+      <a href="#">Gift Cards</a>
+      <a href="#">Sell</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Promotional banner">
+      <div class="hero-content">
+        <h1>Welcome to Amazon Clone</h1>
+        <p>Shop top categories with fast delivery and great deals.</p>
+      </div>
+    </section>
+
+    <section class="products" aria-label="Featured products">
+      <article class="card">
+        <h2>Electronics</h2>
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Electronic gadgets" />
+        <a href="#">See more</a>
+      </article>
+
+      <article class="card">
+        <h2>Fashion</h2>
+        <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=600&q=80" alt="Fashion collection" />
+        <a href="#">Shop now</a>
+      </article>
+
+      <article class="card">
+        <h2>Home Essentials</h2>
+        <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=600&q=80" alt="Home essentials" />
+        <a href="#">Explore</a>
+      </article>
+
+      <article class="card">
+        <h2>Toys &amp; Games</h2>
+        <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=600&q=80" alt="Toys and games" />
+        <a href="#">Discover</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#" class="back-to-top">Back to top</a>
+    <div class="footer-content">
+      <p><strong>Amazon Clone</strong></p>
+      <p>Built with HTML5, CSS3, and Font Awesome icons.</p>
+    </div>
+  </footer>
+</body>
+</html>
